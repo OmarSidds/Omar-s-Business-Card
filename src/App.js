@@ -1,6 +1,8 @@
 import './App.css';
 import profileImg from './resumePicture.JPG'
 import linkedinIcon from './linkedinIcon.svg'
+import linkedinIcon2 from './linkedinIcon2.svg'
+import githubIcon from './githubIcon.svg'
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
           <div className='aboutAndInterestsDiv'>
             <h3>About</h3>
             <p>A frontend developer with a interest in learning all things technology.
-              Currently honing his skills in react and then processing to backend technologies 
+              Currently honing his skills in react and then progressing to backend technologies 
               and later cloud technologies.
             </p>
             <h4>Interests</h4>
@@ -31,6 +33,14 @@ function App() {
               Fortnite. Yugioh. Trying new resturants. 
             </p>
           </div>
+        </div>
+        <div className='footer'>
+          <a href='https://github.com/OmarSidds?tab=repositories'>
+            <img src={githubIcon} className='githubIcon'></img>
+          </a>
+          <a href='https://www.linkedin.com/in/omar-siddiqui954/'>
+            <img src={linkedinIcon2} className='linkedinIconFooter'></img>
+          </a>
         </div>
       </div>
     </div>

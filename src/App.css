@@ -64,7 +64,7 @@ body {
 }
 
 .linkLinkedin {
-  color: black;
+  color: white;
   background-color: #5093E2;
 }
 
@@ -81,4 +81,44 @@ body {
   border-radius: 0.625rem;
   text-decoration: none;
   gap: 0.4rem;
+}
+
+.aboutAndInterestsDiv {
+  margin: 1.5rem;
+}
+
+.aboutAndInterestsDiv h3,
+.aboutAndInterestsDiv h4 {
+  margin: 0;
+  padding: 0;
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+}
+
+.aboutAndInterestsDiv p {
+  margin: 0.5rem 0 1.5rem 0;
+  color: #DCDCDC;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.footer {
+  height: 4.3rem;
+  background-color: #161619;
+  border-radius: 0 0 0.5rem 0.5rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  padding: 0 0.5rem;
+}
+
+.githubIcon, 
+.linkedinIconFooter {
+  width: 2rem;
+  
 }
